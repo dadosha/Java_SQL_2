@@ -61,7 +61,7 @@ public class RequestsHelper {
 
     }
 
-    public static void transferMoneyWithoutAmount(String cardFrom, String cardTo,  String token) {
+    public static void transferMoneyWithoutAmount(String cardFrom, String cardTo, String token) {
         Response response = given()
             .spec(requestSpec)
             .auth().oauth2(token)
